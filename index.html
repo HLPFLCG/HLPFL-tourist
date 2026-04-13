@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurante Jaguar — Puerto Viejo de Talamanca, Costa Rica</title>
+
+  <!-- SEO Meta -->
+  <meta name="description" content="Restaurante Jaguar — Fresh, locally sourced Caribbean cuisine in Puerto Viejo de Talamanca, Costa Rica. Open daily for lunch and dinner." />
+  <meta name="keywords" content="restaurant Puerto Viejo, Costa Rica restaurant, Caribbean food, Restaurante Jaguar, comida caribeña" />
+  <meta name="author" content="Restaurante Jaguar" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- hreflang -->
+  <link rel="alternate" hreflang="en" href="https://www.restaurantejaguar.com/" />
+  <link rel="alternate" hreflang="es" href="https://www.restaurantejaguar.com/?lang=es" />
+  <link rel="alternate" hreflang="x-default" href="https://www.restaurantejaguar.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="Restaurante Jaguar — Puerto Viejo de Talamanca" />
+  <meta property="og:description" content="Fresh, locally sourced Caribbean cuisine in the heart of Puerto Viejo, Costa Rica." />
+  <meta property="og:url" content="https://www.restaurantejaguar.com/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:locale:alternate" content="es_CR" />
+  <meta property="og:site_name" content="Restaurante Jaguar" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Restaurante Jaguar — Puerto Viejo de Talamanca" />
+  <meta name="twitter:description" content="Fresh, locally sourced Caribbean cuisine in Puerto Viejo, Costa Rica." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐆</text></svg>" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600&family=Source+Sans+3:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Restaurante Jaguar",
+    "url": "https://www.restaurantejaguar.com/",
+    "telephone": "+50688880002",
+    "email": "hola@restaurantejaguar.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Centro de Puerto Viejo de Talamanca",
+      "addressLocality": "Puerto Viejo de Talamanca",
+      "addressRegion": "Limón",
+      "addressCountry": "CR"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 9.6558,
+      "longitude": -82.7534
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "11:30",
+        "closes": "15:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "18:00",
+        "closes": "22:00"
+      }
+    ],
+    "servesCuisine": ["Caribbean", "Costa Rican", "Latin American"],
+    "priceRange": "$$",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "reviewCount": "120",
+      "bestRating": "5"
+    },
+    "foundingDate": "2015",
+    "currenciesAccepted": "USD, CRC",
+    "paymentAccepted": "Cash, Credit Card"
+  }
+  </script>
+
+  <style>
+    /* ===========================
+       CSS CUSTOM PROPERTIES
+    =========================== */
+    :root {
+      --green-deep:  #1a3a2a;
+      --green-mid:   #2a5a3a;
+      --green-light: #3a7a4a;
+      --gold:        #c9a84c;
+      --gold-light:  #e4c97a;
+      --gold-dark:   #a8872e;
+      --white:       #ffffff;
+      --gray-light:  #f5f5f0;
+      --gray-mid:    #e8e8e2;
+      --gray-text:   #666660;
+      --text-dark:   #1a1a16;
+      --ta-green:    #00aa6c;
+      --font-head:   'Cormorant Garamond', Georgia, serif;
+      --font-body:   'Source Sans 3', 'Source Sans Pro', Arial, sans-serif;
+      --nav-h:       72px;
+      --transition:  0.3s ease;
+      --shadow-sm:   0 2px 8px rgba(0,0,0,0.10);
+      --shadow-md:   0 4px 20px rgba(0,0,0,0.14);
+      --radius:      6px;
+      --max-w:       1160px;
+    }
+
+    /* ===========================
+       RESET & BASE
+    =========================== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; font-size: 16px; }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--text-dark);
+      background: var(--white);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, h5 {
+      font-family: var(--font-head);
+      line-height: 1.2;
+      color: var(--green-deep);
+    }
+
+    a { color: inherit; text-decoration: none; transition: color var(--transition); }
+    img { max-width: 100%; display: block; }
+    ul { list-style: none; }
+
+    .container {
+      width: 100%;
+      max-width: var(--max-w);
+      margin-inline: auto;
+      padding-inline: 24px;
+    }
+
+    /* Section padding */
+    .section { padding: 80px 0; }
+    .section-sm { padding: 48px 0; }
+
+    .section-heading {
+      font-size: clamp(2rem, 4vw, 2.8rem);
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .section-subheading {
+      font-size: 1.1rem;
+      color: var(--gray-text);
+      max-width: 580px;
+    }
+
+    .section-label {
+      display: inline-block;
+      font-family: var(--font-body);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+      margin-bottom: 10px;
+    }
+
+    /* Divider */
+    .divider {
+      width: 52px;
+      height: 2px;
+      background: var(--gold);
+      margin: 16px 0 28px;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 28px;
+      border-radius: var(--radius);
+      font-family: var(--font-body);
+      font-size: 0.95rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      cursor: pointer;
+      transition: all var(--transition);
+      border: 2px solid transparent;
+      white-space: nowrap;
+    }
+
+    .btn-gold {
+      background: var(--gold);
+      color: var(--green-deep);
+      border-color: var(--gold);
+    }
+    .btn-gold:hover { background: var(--gold-dark); border-color: var(--gold-dark); }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border-color: rgba(255,255,255,0.7);
+    }
+    .btn-outline:hover { background: rgba(255,255,255,0.12); border-color: var(--white); }
+
+    .btn-whatsapp {
+      background: #25d366;
+      color: var(--white);
+      border-color: #25d366;
+      font-size: 1.05rem;
+      padding: 16px 32px;
+    }
+    .btn-whatsapp:hover { background: #1ebe5a; border-color: #1ebe5a; }
+
+    /* ===========================
+       NAVIGATION
+    =========================== */
+    #navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      height: var(--nav-h);
+      background: var(--green-deep);
+      transition: box-shadow var(--transition);
+    }
+
+    #navbar.scrolled { box-shadow: 0 2px 16px rgba(0,0,0,0.28); }
+
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: var(--nav-h);
+    }
+
+    /* Logo */
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--white);
+      flex-shrink: 0;
+    }
+
+    .nav-logo-text {
+      font-family: var(--font-head);
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--gold);
+    }
+
+    .nav-logo-sub {
+      font-size: 0.62rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.55);
+      line-height: 1.1;
+    }
+
+    .nav-logo-wrap { display: flex; flex-direction: column; }
+
+    /* Nav links */
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .nav-links a {
+      font-family: var(--font-body);
+      font-size: 0.88rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.82);
+      position: relative;
+      padding-bottom: 3px;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 0;
+      height: 1.5px;
+      background: var(--gold);
+      transition: width var(--transition);
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+    .nav-links a:hover::after { width: 100%; }
+
+    /* Language toggle */
+    #lang-toggle {
+      background: none;
+      border: 1.5px solid rgba(201,168,76,0.6);
+      color: var(--gold);
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all var(--transition);
+      flex-shrink: 0;
+    }
+
+    #lang-toggle:hover {
+      background: var(--gold);
+      color: var(--green-deep);
+      border-color: var(--gold);
+    }
+
+    #lang-toggle-mobile {
+      background: none;
+      border: 1.5px solid rgba(201,168,76,0.6);
+      color: var(--gold);
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      padding: 8px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all var(--transition);
+      align-self: flex-start;
+      margin-top: 16px;
+    }
+
+    #lang-toggle-mobile:hover {
+      background: var(--gold);
+      color: var(--green-deep);
+      border-color: var(--gold);
+    }
+
+    /* Hamburger */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition: all var(--transition);
+    }
+
+    .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; transform: scaleX(0); }
+    .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* Mobile nav drawer */
+    .nav-drawer {
+      display: none;
+      flex-direction: column;
+      gap: 0;
+      position: fixed;
+      top: var(--nav-h);
+      left: 0;
+      right: 0;
+      background: var(--green-deep);
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 16px 24px 24px;
+      z-index: 999;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+
+    .nav-drawer.open { display: flex; }
+
+    .nav-drawer a {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      color: rgba(255,255,255,0.85);
+      padding: 13px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .nav-drawer a:last-child { border-bottom: none; }
+    .nav-drawer a:hover { color: var(--gold); }
+
+    /* ===========================
+       HERO
+    =========================== */
+    #hero {
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      background:
+        repeating-linear-gradient(
+          120deg,
+          transparent 0px,
+          transparent 40px,
+          rgba(255,255,255,0.013) 40px,
+          rgba(255,255,255,0.013) 80px
+        ),
+        repeating-linear-gradient(
+          60deg,
+          transparent 0px,
+          transparent 60px,
+          rgba(255,255,255,0.010) 60px,
+          rgba(255,255,255,0.010) 120px
+        ),
+        linear-gradient(155deg, var(--green-deep) 0%, #0f2218 45%, #060e0a 100%);
+      padding-top: var(--nav-h);
+    }
+
+    .hero-content {
+      text-align: center;
+      color: var(--white);
+      max-width: 760px;
+      padding: 40px 24px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-eyebrow {
+      font-family: var(--font-body);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 22px;
+    }
+
+    .hero-title {
+      font-family: var(--font-head);
+      font-size: clamp(2.4rem, 6vw, 4rem);
+      font-weight: 600;
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: 22px;
+      text-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      color: rgba(255,255,255,0.78);
+      margin-bottom: 40px;
+      font-weight: 300;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .hero-scroll {
+      position: absolute;
+      bottom: 32px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      color: rgba(255,255,255,0.4);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      animation: bounce 2.4s ease-in-out infinite;
+    }
+
+    .hero-scroll svg { opacity: 0.5; }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(6px); }
+    }
+
+    /* ===========================
+       CREDIBILITY BAR
+    =========================== */
+    #credibility {
+      background: var(--green-deep);
+      padding: 32px 0;
+    }
+
+    .cred-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+
+    .cred-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 16px 12px;
+      border-right: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .cred-item:last-child { border-right: none; }
+
+    .cred-icon {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+      line-height: 1;
+    }
+
+    .cred-title {
+      font-family: var(--font-head);
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--gold);
+      margin-bottom: 2px;
+    }
+
+    .cred-sub {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.55);
+      letter-spacing: 0.04em;
+    }
+
+    /* ===========================
+       ABOUT
+    =========================== */
+    #about { background: var(--white); }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+
+    /* Jaguar spot pattern placeholder */
+    .about-image {
+      position: relative;
+      aspect-ratio: 4/3;
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--green-deep);
+    }
+
+    .about-image::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 18px 12px at 18% 22%, rgba(0,0,0,0.45) 60%, transparent 61%),
+        radial-gradient(ellipse 14px 9px at 38% 15%, rgba(0,0,0,0.40) 60%, transparent 61%),
+        radial-gradient(ellipse 20px 13px at 60% 28%, rgba(0,0,0,0.42) 60%, transparent 61%),
+        radial-gradient(ellipse 16px 10px at 80% 18%, rgba(0,0,0,0.38) 60%, transparent 61%),
+        radial-gradient(ellipse 22px 14px at 15% 48%, rgba(0,0,0,0.40) 60%, transparent 61%),
+        radial-gradient(ellipse 15px 10px at 45% 42%, rgba(0,0,0,0.44) 60%, transparent 61%),
+        radial-gradient(ellipse 18px 12px at 70% 52%, rgba(0,0,0,0.38) 60%, transparent 61%),
+        radial-gradient(ellipse 12px 8px at 88% 44%, rgba(0,0,0,0.42) 60%, transparent 61%),
+        radial-gradient(ellipse 20px 13px at 25% 70%, rgba(0,0,0,0.40) 60%, transparent 61%),
+        radial-gradient(ellipse 17px 11px at 55% 68%, rgba(0,0,0,0.44) 60%, transparent 61%),
+        radial-gradient(ellipse 14px 9px at 78% 75%, rgba(0,0,0,0.38) 60%, transparent 61%),
+        radial-gradient(ellipse 19px 12px at 12% 85%, rgba(0,0,0,0.40) 60%, transparent 61%),
+        radial-gradient(ellipse 16px 10px at 42% 88%, rgba(0,0,0,0.42) 60%, transparent 61%),
+        radial-gradient(ellipse 21px 14px at 68% 90%, rgba(0,0,0,0.38) 60%, transparent 61%),
+        radial-gradient(ellipse 13px 9px at 90% 82%, rgba(0,0,0,0.44) 60%, transparent 61%),
+        linear-gradient(145deg, #2a5a3a 0%, #1a3a2a 50%, #0f2218 100%);
+    }
+
+    .about-image-label {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(201,168,76,0.18);
+      border: 1px solid rgba(201,168,76,0.4);
+      color: var(--gold);
+      font-family: var(--font-head);
+      font-size: 1.2rem;
+      font-style: italic;
+      padding: 8px 20px;
+      border-radius: 4px;
+      white-space: nowrap;
+      backdrop-filter: blur(4px);
+    }
+
+    .about-text p {
+      font-size: 1.08rem;
+      line-height: 1.75;
+      color: #3a3a32;
+    }
+
+    .about-quote {
+      margin-top: 28px;
+      padding: 20px 24px;
+      border-left: 3px solid var(--gold);
+      background: var(--gray-light);
+      border-radius: 0 var(--radius) var(--radius) 0;
+    }
+
+    .about-quote p {
+      font-family: var(--font-head);
+      font-size: 1.2rem;
+      font-style: italic;
+      color: var(--green-deep);
+      line-height: 1.5;
+    }
+
+    /* ===========================
+       MENU
+    =========================== */
+    #menu { background: var(--gray-light); }
+
+    .menu-header {
+      text-align: center;
+      margin-bottom: 56px;
+    }
+
+    .menu-section { margin-bottom: 52px; }
+
+    .menu-section-heading {
+      font-family: var(--font-head);
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--green-deep);
+      letter-spacing: 0.03em;
+      padding-bottom: 12px;
+      border-bottom: 2px solid var(--gold);
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .menu-section-heading .menu-section-icon {
+      font-size: 1.3rem;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+    }
+
+    .menu-item {
+      padding: 18px 0;
+      border-bottom: 1px solid var(--gray-mid);
+      display: grid;
+      grid-template-columns: 1fr auto;
+      grid-template-rows: auto auto;
+      gap: 2px 12px;
+    }
+
+    .menu-item:nth-child(odd) { padding-right: 28px; }
+    .menu-item:nth-child(even) { padding-left: 28px; border-left: 1px solid var(--gray-mid); }
+
+    .menu-item-name {
+      font-family: var(--font-head);
+      font-size: 1.12rem;
+      font-weight: 600;
+      color: var(--green-deep);
+      grid-column: 1;
+      grid-row: 1;
+    }
+
+    .menu-item-price {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--gold-dark);
+      grid-column: 2;
+      grid-row: 1;
+      white-space: nowrap;
+      align-self: start;
+    }
+
+    .menu-item-desc {
+      font-size: 0.85rem;
+      color: var(--gray-text);
+      grid-column: 1 / 3;
+      grid-row: 2;
+      line-height: 1.45;
+    }
+
+    /* ===========================
+       RESERVATIONS
+    =========================== */
+    #reservations {
+      background: linear-gradient(135deg, var(--gold-dark) 0%, var(--gold) 60%, var(--gold-light) 100%);
+    }
+
+    .reservations-inner {
+      text-align: center;
+      max-width: 640px;
+      margin-inline: auto;
+    }
+
+    #reservations .section-label { color: var(--green-deep); opacity: 0.65; }
+
+    #reservations .section-heading { color: var(--green-deep); }
+
+    #reservations .divider { background: var(--green-deep); opacity: 0.3; margin-inline: auto; }
+
+    .reservations-body {
+      font-size: 1.05rem;
+      color: var(--green-deep);
+      opacity: 0.85;
+      margin-bottom: 32px;
+      line-height: 1.7;
+    }
+
+    .reservations-cta { display: flex; flex-direction: column; align-items: center; gap: 16px; }
+
+    .reservations-email {
+      font-family: var(--font-body);
+      font-size: 1rem;
+      color: var(--green-deep);
+      opacity: 0.75;
+    }
+
+    .reservations-email a:hover { opacity: 1; text-decoration: underline; }
+
+    .reservations-hours {
+      margin-top: 24px;
+      padding: 16px 24px;
+      background: rgba(26,58,42,0.12);
+      border-radius: var(--radius);
+      font-size: 0.95rem;
+      color: var(--green-deep);
+    }
+
+    /* ===========================
+       TRIPADVISOR + MAP
+    =========================== */
+    #reviews { background: var(--white); }
+
+    .reviews-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.8fr;
+      gap: 48px;
+      align-items: start;
+    }
+
+    /* TripAdvisor badge */
+    .ta-badge {
+      border: 2px solid var(--ta-green);
+      border-radius: 10px;
+      padding: 28px 24px;
+      text-align: center;
+      max-width: 280px;
+    }
+
+    .ta-header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .ta-logo-text {
+      font-family: var(--font-body);
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--ta-green);
+      letter-spacing: -0.01em;
+    }
+
+    .ta-certificate {
+      font-family: var(--font-head);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gray-text);
+      margin-bottom: 14px;
+    }
+
+    .ta-restaurant-name {
+      font-family: var(--font-head);
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--text-dark);
+      margin-bottom: 14px;
+    }
+
+    .ta-dots {
+      display: flex;
+      justify-content: center;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+
+    .ta-dot {
+      width: 18px;
+      height: 18px;
+      background: var(--ta-green);
+      border-radius: 50%;
+    }
+
+    .ta-rating {
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      color: var(--gray-text);
+      margin-bottom: 18px;
+    }
+
+    .ta-link {
+      display: inline-block;
+      font-family: var(--font-body);
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--ta-green);
+      border: 1.5px solid var(--ta-green);
+      padding: 7px 18px;
+      border-radius: 4px;
+      transition: all var(--transition);
+    }
+
+    .ta-link:hover {
+      background: var(--ta-green);
+      color: var(--white);
+    }
+
+    /* Map */
+    .map-wrap {
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      height: 380px;
+    }
+
+    .map-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    /* ===========================
+       FOOTER
+    =========================== */
+    #footer {
+      background: var(--green-deep);
+      color: rgba(255,255,255,0.75);
+      padding: 56px 0 32px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 48px;
+      padding-bottom: 40px;
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+      margin-bottom: 28px;
+    }
+
+    .footer-col h4 {
+      font-family: var(--font-head);
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--gold);
+      margin-bottom: 18px;
+    }
+
+    .footer-col p, .footer-col li {
+      font-size: 0.92rem;
+      line-height: 1.85;
+      color: rgba(255,255,255,0.68);
+    }
+
+    .footer-col a:hover { color: var(--gold); }
+
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 10px;
+      font-size: 0.92rem;
+      color: rgba(255,255,255,0.68);
+    }
+
+    .footer-contact-icon { flex-shrink: 0; margin-top: 2px; }
+
+    .footer-links li { margin-bottom: 8px; }
+
+    .footer-links a {
+      color: rgba(255,255,255,0.65);
+      font-size: 0.92rem;
+      position: relative;
+      padding-bottom: 2px;
+    }
+
+    .footer-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--gold);
+      transition: width var(--transition);
+    }
+
+    .footer-links a:hover { color: var(--gold); }
+    .footer-links a:hover::after { width: 100%; }
+
+    .footer-bottom {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.38);
+    }
+
+    .footer-bilingual {
+      font-style: italic;
+    }
+
+    /* ===========================
+       RESPONSIVE
+    =========================== */
+    @media (max-width: 900px) {
+      .about-grid { grid-template-columns: 1fr; gap: 40px; }
+      .reviews-grid { grid-template-columns: 1fr; }
+      .ta-badge { max-width: 100%; }
+      .map-wrap { height: 300px; }
+      .footer-grid { grid-template-columns: 1fr; gap: 32px; }
+    }
+
+    @media (max-width: 720px) {
+      .cred-grid { grid-template-columns: 1fr 1fr; }
+      .cred-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.1); }
+      .cred-item:nth-child(2n) { border-right: none; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .menu-item:nth-child(even) { padding-left: 0; border-left: none; }
+      .menu-item:nth-child(odd) { padding-right: 0; }
+    }
+
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      #lang-toggle { display: none; }
+      .hamburger { display: flex; }
+    }
+
+    @media (min-width: 641px) {
+      .nav-drawer { display: none !important; }
+    }
+
+    /* ===========================
+       UTILITY
+    =========================== */
+    .text-center { text-align: center; }
+    .mt-4 { margin-top: 16px; }
+    .mb-4 { margin-bottom: 16px; }
+    .visually-hidden {
+      position: absolute;
+      width: 1px; height: 1px;
+      padding: 0; margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      border: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ========================
+       NAV
+  ======================== -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-inner">
+
+      <!-- Logo -->
+      <a href="#" class="nav-logo" aria-label="Restaurante Jaguar — Home">
+        <!-- Jaguar Paw SVG -->
+        <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <!-- Palm / main pad -->
+          <ellipse cx="17" cy="22" rx="9" ry="7.5" fill="#c9a84c"/>
+          <!-- Four toe pads -->
+          <ellipse cx="9"  cy="13" rx="3.8" ry="3.2" fill="#c9a84c"/>
+          <ellipse cx="14.5" cy="10.5" rx="3.8" ry="3.2" fill="#c9a84c"/>
+          <ellipse cx="20"  cy="10.5" rx="3.8" ry="3.2" fill="#c9a84c"/>
+          <ellipse cx="25.5" cy="13" rx="3.8" ry="3.2" fill="#c9a84c"/>
+          <!-- Claw tips on main pad -->
+          <ellipse cx="17" cy="22" rx="9" ry="7.5" fill="none" stroke="#a8872e" stroke-width="0.8"/>
+        </svg>
+        <div class="nav-logo-wrap">
+          <span class="nav-logo-text">JAGUAR</span>
+          <span class="nav-logo-sub">Restaurante</span>
+        </div>
+      </a>
+
+      <!-- Desktop links -->
+      <ul class="nav-links" role="list">
+        <li><a href="#menu" data-en="Menu" data-es="Menú"></a></li>
+        <li><a href="#about" data-en="About" data-es="Nosotros"></a></li>
+        <li><a href="#reservations" data-en="Reservations" data-es="Reservaciones"></a></li>
+        <li><a href="#reviews" data-en="Location" data-es="Ubicación"></a></li>
+      </ul>
+
+      <!-- Lang toggle (desktop) -->
+      <button id="lang-toggle" aria-label="Switch language">ES | EN</button>
+
+      <!-- Hamburger (mobile) -->
+      <button class="hamburger" id="hamburger-btn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile drawer -->
+    <div class="nav-drawer" id="nav-drawer" aria-hidden="true">
+      <a href="#menu" data-en="Menu" data-es="Menú"></a>
+      <a href="#about" data-en="About" data-es="Nosotros"></a>
+      <a href="#reservations" data-en="Reservations" data-es="Reservaciones"></a>
+      <a href="#reviews" data-en="Location" data-es="Ubicación"></a>
+      <button id="lang-toggle-mobile" aria-label="Switch language">ES | EN</button>
+    </div>
+  </nav>
+
+  <!-- ========================
+       HERO
+  ======================== -->
+  <section id="hero" aria-label="Hero">
+    <div class="hero-content">
+      <p class="hero-eyebrow" data-en="Puerto Viejo de Talamanca · Costa Rica" data-es="Puerto Viejo de Talamanca · Costa Rica"></p>
+      <h1 class="hero-title"
+          data-en="Where the Rainforest<br>Meets the Caribbean Table"
+          data-es="Donde la Selva se Encuentra<br>con la Mesa Caribeña"></h1>
+      <p class="hero-subtitle"
+         data-en="Fresh, locally sourced cuisine in the heart of Puerto Viejo"
+         data-es="Cocina fresca de origen local en el corazón de Puerto Viejo"></p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-gold"
+           data-en="View Menu"
+           data-es="Ver Menú"></a>
+        <a href="https://wa.me/50688880002" class="btn btn-outline" target="_blank" rel="noopener"
+           data-en="Reserve a Table"
+           data-es="Reservar una Mesa"></a>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M10 4v12M5 11l5 5 5-5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+  </section>
+
+  <!-- ========================
+       CREDIBILITY BAR
+  ======================== -->
+  <section id="credibility" aria-label="Trust signals">
+    <div class="container">
+      <div class="cred-grid">
+        <div class="cred-item">
+          <div class="cred-icon">⭐</div>
+          <div class="cred-title" data-en="4.8 on TripAdvisor" data-es="4.8 en TripAdvisor"></div>
+          <div class="cred-sub" data-en="Traveler Favourite" data-es="Favorito de Viajeros"></div>
+        </div>
+        <div class="cred-item">
+          <div class="cred-icon">🌿</div>
+          <div class="cred-title" data-en="Locally Sourced" data-es="Origen Local"></div>
+          <div class="cred-sub" data-en="Farm &amp; Ocean to Table" data-es="Del Campo y el Mar a la Mesa"></div>
+        </div>
+        <div class="cred-item">
+          <div class="cred-icon">🏆</div>
+          <div class="cred-title" data-en="Est. 2015" data-es="Desde 2015"></div>
+          <div class="cred-sub" data-en="10+ Years of Excellence" data-es="Más de 10 Años de Excelencia"></div>
+        </div>
+        <div class="cred-item">
+          <div class="cred-icon">🌎</div>
+          <div class="cred-title" data-en="English &amp; Spanish" data-es="Inglés y Español"></div>
+          <div class="cred-sub" data-en="Bilingual Team" data-es="Equipo Bilingüe"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       ABOUT
+  ======================== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Left: CSS jaguar spot image -->
+        <div class="about-image" role="img" aria-label="Decorative jaguar pattern representing the spirit of Restaurante Jaguar">
+          <div class="about-image-label" data-en="Since 2015 · Puerto Viejo" data-es="Desde 2015 · Puerto Viejo"></div>
+        </div>
+
+        <!-- Right: Text -->
+        <div class="about-text">
+          <span class="section-label" data-en="Our Story" data-es="Nuestra Historia"></span>
+          <h2 class="section-heading" data-en="Rooted in the<br>Caribbean Coast" data-es="Arraigados en la<br>Costa Caribeña"></h2>
+          <div class="divider"></div>
+          <p data-en="At Restaurante Jaguar, we believe great food starts with great ingredients. We work with local farmers and fishermen to bring you the flavors of the Caribbean coast — from fresh catch to tropical fruit — prepared with care and creativity."
+             data-es="En Restaurante Jaguar, creemos que la buena cocina comienza con buenos ingredientes. Trabajamos con agricultores y pescadores locales para traerle los sabores de la costa caribeña, preparados con cuidado y creatividad."></p>
+          <div class="about-quote">
+            <p data-en="&ldquo;Every dish tells the story of this land — its people, its harvest, and the Caribbean spirit.&rdquo;"
+               data-es="&ldquo;Cada plato cuenta la historia de esta tierra — su gente, su cosecha y el espíritu caribeño.&rdquo;"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       MENU
+  ======================== -->
+  <section id="menu" class="section">
+    <div class="container">
+      <div class="menu-header">
+        <span class="section-label" data-en="Our Offerings" data-es="Nuestros Platos"></span>
+        <h2 class="section-heading" data-en="The Menu" data-es="El Menú"></h2>
+        <div class="divider" style="margin-inline:auto;"></div>
+        <p class="section-subheading" style="margin-inline:auto; text-align:center;"
+           data-en="Crafted daily from the freshest local ingredients"
+           data-es="Preparado diariamente con los ingredientes locales más frescos"></p>
+      </div>
+
+      <!-- STARTERS -->
+      <div class="menu-section">
+        <h3 class="menu-section-heading">
+          <span class="menu-section-icon">🐚</span>
+          <span data-en="Starters" data-es="Entradas"></span>
+        </h3>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Ceviche of the Day" data-es="Ceviche del Día"></div>
+            <div class="menu-item-price">$9</div>
+            <div class="menu-item-desc" data-en="Fresh catch marinated in lime, cilantro, and Caribbean spices" data-es="Pescado fresco marinado en limón, cilantro y especias caribeñas"></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Plantain Soup" data-es="Sopa de Plátano"></div>
+            <div class="menu-item-price">$7</div>
+            <div class="menu-item-desc" data-en="Creamy green plantain soup with herbs and a touch of cream" data-es="Sopa cremosa de plátano verde con hierbas y un toque de crema"></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Green Salad with Mango Vinaigrette" data-es="Ensalada Verde con Vinagreta de Mango"></div>
+            <div class="menu-item-price">$8</div>
+            <div class="menu-item-desc" data-en="Mixed garden greens, cherry tomatoes, cucumber, and house mango dressing" data-es="Verduras mixtas, tomates cherry, pepino y aderezo de mango de la casa"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MAINS -->
+      <div class="menu-section">
+        <h3 class="menu-section-heading">
+          <span class="menu-section-icon">🍽️</span>
+          <span data-en="Mains" data-es="Platos Fuertes"></span>
+        </h3>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Grilled Caribbean Snapper" data-es="Pargo Caribeño a la Parrilla"></div>
+            <div class="menu-item-price">$18</div>
+            <div class="menu-item-desc" data-en="Whole snapper grilled to order with patacones and coconut rice" data-es="Pargo entero a la parrilla con patacones y arroz con coco"></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Chicken in Coconut Sauce" data-es="Pollo en Salsa de Coco"></div>
+            <div class="menu-item-price">$15</div>
+            <div class="menu-item-desc" data-en="Slow-simmered chicken thighs in rich Caribbean coconut sauce" data-es="Muslos de pollo a fuego lento en rica salsa de coco caribeña"></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Pasta with Shrimp and Garlic" data-es="Pasta con Camarones al Ajillo"></div>
+            <div class="menu-item-price">$17</div>
+            <div class="menu-item-desc" data-en="Linguine with fresh Gulf shrimp, garlic, white wine, and herbs" data-es="Linguine con camarones frescos, ajo, vino blanco y hierbas"></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Vegetarian Casado" data-es="Casado Vegetariano"></div>
+            <div class="menu-item-price">$12</div>
+            <div class="menu-item-desc" data-en="Costa Rican rice and beans, seasonal vegetables, salad, and fried plantain" data-es="Arroz y frijoles costarricenses, vegetales de temporada, ensalada y plátano maduro"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DESSERTS -->
+      <div class="menu-section">
+        <h3 class="menu-section-heading">
+          <span class="menu-section-icon">🍮</span>
+          <span data-en="Desserts" data-es="Postres"></span>
+        </h3>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Tres Leches Cake" data-es="Torta Tres Leches"></div>
+            <div class="menu-item-price">$6</div>
+            <div class="menu-item-desc" data-en="Classic moist sponge soaked in three milks with whipped cream" data-es="Bizcocho húmedo clásico empapado en tres leches con crema batida"></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Coconut Flan" data-es="Flan de Coco"></div>
+            <div class="menu-item-price">$5</div>
+            <div class="menu-item-desc" data-en="Silky coconut custard with caramel and toasted coconut flakes" data-es="Flan sedoso de coco con caramelo y coco tostado"></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Fresh Fruit Plate" data-es="Plato de Frutas Frescas"></div>
+            <div class="menu-item-price">$5</div>
+            <div class="menu-item-desc" data-en="Seasonal tropical fruits — mango, papaya, pineapple, and more" data-es="Frutas tropicales de temporada — mango, papaya, piña y más"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DRINKS -->
+      <div class="menu-section">
+        <h3 class="menu-section-heading">
+          <span class="menu-section-icon">🥤</span>
+          <span data-en="Drinks" data-es="Bebidas"></span>
+        </h3>
+        <div class="menu-grid">
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Fresh Fruit Juices" data-es="Jugos Naturales"></div>
+            <div class="menu-item-price">$4</div>
+            <div class="menu-item-desc" data-en="Made to order — ask about today's fruits" data-es="Preparados al momento — pregunte por las frutas del día"></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Costa Rican Coffee" data-es="Café Costarricense"></div>
+            <div class="menu-item-price">$2.50</div>
+            <div class="menu-item-desc" data-en="Single-origin arabica from the Tarrazú highlands, brewed fresh" data-es="Arábica de origen único de las tierras altas de Tarrazú, recién preparado"></div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name" data-en="Wines by the Glass" data-es="Vinos por Copa"></div>
+            <div class="menu-item-price" data-en="from $7" data-es="desde $7"></div>
+            <div class="menu-item-desc" data-en="Curated selection of reds, whites, and rosés" data-es="Selección de tintos, blancos y rosados"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================
+       RESERVATIONS
+  ======================== -->
+  <section id="reservations" class="section">
+    <div class="container">
+      <div class="reservations-inner">
+        <span class="section-label" data-en="Book Your Experience" data-es="Reserve su Experiencia"></span>
+        <h2 class="section-heading" data-en="Reserve Your Table" data-es="Reserve su Mesa"></h2>
+        <div class="divider"></div>
+        <p class="reservations-body"
+           data-en="We recommend reserving in advance, especially on weekends and during high season (December–April)."
+           data-es="Recomendamos reservar con anticipación, especialmente los fines de semana y durante la temporada alta (diciembre–abril)."></p>
+        <div class="reservations-cta">
+          <a href="https://wa.me/50688880002" class="btn btn-whatsapp" target="_blank" rel="noopener">
+            <!-- WhatsApp icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            <span data-en="WhatsApp Us to Reserve" data-es="Escríbenos por WhatsApp"></span>
+          </a>
+          <p class="reservations-email">
+            <a href="mailto:hola@restaurantejaguar.com">hola@restaurantejaguar.com</a>
+          </p>
+        </div>
+        <div class="reservations-hours">
+          <p data-en="Open daily &nbsp;·&nbsp; Lunch 11:30am–3pm &nbsp;·&nbsp; Dinner 6pm–10pm"
+             data-es="Abierto todos los días &nbsp;·&nbsp; Almuerzo 11:30am–3pm &nbsp;·&nbsp; Cena 6pm–10pm"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       TRIPADVISOR + MAP
+  ======================== -->
+  <section id="reviews" class="section">
+    <div class="container">
+      <div style="text-align:center; margin-bottom:48px;">
+        <span class="section-label" data-en="Find Us" data-es="Encuéntranos"></span>
+        <h2 class="section-heading" data-en="Reviews &amp; Location" data-es="Reseñas y Ubicación"></h2>
+        <div class="divider" style="margin-inline:auto;"></div>
+      </div>
+      <div class="reviews-grid">
+        <!-- TripAdvisor Badge -->
+        <div>
+          <div class="ta-badge">
+            <div class="ta-header">
+              <!-- TripAdvisor Owl SVG -->
+              <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="TripAdvisor logo">
+                <!-- Body -->
+                <ellipse cx="21" cy="26" rx="13" ry="11" fill="#00aa6c"/>
+                <!-- Head -->
+                <circle cx="21" cy="15" r="8" fill="#00aa6c"/>
+                <!-- Eyes background -->
+                <circle cx="17" cy="14.5" r="4.2" fill="white"/>
+                <circle cx="25" cy="14.5" r="4.2" fill="white"/>
+                <!-- Eye pupils -->
+                <circle cx="17" cy="14.5" r="2.4" fill="#1a1a16"/>
+                <circle cx="25" cy="14.5" r="2.4" fill="#1a1a16"/>
+                <!-- Eye shine -->
+                <circle cx="17.8" cy="13.5" r="0.8" fill="white"/>
+                <circle cx="25.8" cy="13.5" r="0.8" fill="white"/>
+                <!-- Beak -->
+                <ellipse cx="21" cy="18.5" rx="2.2" ry="1.3" fill="#f5a623"/>
+                <!-- Ears -->
+                <ellipse cx="14.5" cy="9" rx="2.5" ry="3.2" fill="#00aa6c" transform="rotate(-15 14.5 9)"/>
+                <ellipse cx="27.5" cy="9" rx="2.5" ry="3.2" fill="#00aa6c" transform="rotate(15 27.5 9)"/>
+                <!-- Feet -->
+                <ellipse cx="15" cy="36" rx="4" ry="2" fill="#00aa6c"/>
+                <ellipse cx="27" cy="36" rx="4" ry="2" fill="#00aa6c"/>
+              </svg>
+              <span class="ta-logo-text">tripadvisor</span>
+            </div>
+            <div class="ta-certificate" data-en="Certificate of Excellence" data-es="Certificado de Excelencia"></div>
+            <div class="ta-restaurant-name">Restaurante Jaguar</div>
+            <div class="ta-dots" aria-label="Rating: 5 out of 5">
+              <div class="ta-dot"></div>
+              <div class="ta-dot"></div>
+              <div class="ta-dot"></div>
+              <div class="ta-dot"></div>
+              <div class="ta-dot"></div>
+            </div>
+            <div class="ta-rating" data-en="Based on 120+ reviews" data-es="Basado en más de 120 reseñas"></div>
+            <a href="#" class="ta-link" data-en="See our reviews" data-es="Ver nuestras reseñas"></a>
+          </div>
+        </div>
+
+        <!-- Google Maps -->
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15738.434895012017!2d-82.76182701550344!3d9.655812936764538!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f71f5e6d2a2c38b%3A0x6a2e5b2c2e2b2e2b!2sPuerto+Viejo+de+Talamanca%2C+Lim%C3%B3n%2C+Costa+Rica!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Restaurante Jaguar location — Puerto Viejo de Talamanca, Costa Rica">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================
+       FOOTER
+  ======================== -->
+  <footer id="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+
+        <!-- Contact -->
+        <div class="footer-col">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px;">
+            <svg width="28" height="28" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <ellipse cx="17" cy="22" rx="9" ry="7.5" fill="#c9a84c"/>
+              <ellipse cx="9"  cy="13" rx="3.8" ry="3.2" fill="#c9a84c"/>
+              <ellipse cx="14.5" cy="10.5" rx="3.8" ry="3.2" fill="#c9a84c"/>
+              <ellipse cx="20"  cy="10.5" rx="3.8" ry="3.2" fill="#c9a84c"/>
+              <ellipse cx="25.5" cy="13" rx="3.8" ry="3.2" fill="#c9a84c"/>
+            </svg>
+            <span style="font-family:var(--font-head);font-size:1.35rem;font-weight:700;color:var(--gold);letter-spacing:0.08em;">JAGUAR</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Puerto Viejo de Talamanca, Limón, Costa Rica</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 14 19.79 19.79 0 0 1 1.6 5.37 2 2 0 0 1 3.58 3h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 10.5a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <a href="https://wa.me/50688880002" target="_blank" rel="noopener">+506 8888-0002</a>
+          </div>
+          <div class="footer-contact-item">
+            <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:hola@restaurantejaguar.com">hola@restaurantejaguar.com</a>
+          </div>
+          <div class="footer-contact-item" style="margin-top:8px;">
+            <svg class="footer-contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span data-en="Daily · Lunch 11:30am–3pm · Dinner 6pm–10pm" data-es="Diario · Almuerzo 11:30am–3pm · Cena 6pm–10pm"></span>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 data-en="Quick Links" data-es="Accesos Rápidos"></h4>
+          <ul class="footer-links">
+            <li><a href="#menu" data-en="Our Menu" data-es="Nuestro Menú"></a></li>
+            <li><a href="#about" data-en="About Us" data-es="Quiénes Somos"></a></li>
+            <li><a href="#reservations" data-en="Reservations" data-es="Reservaciones"></a></li>
+            <li><a href="#reviews" data-en="Location &amp; Reviews" data-es="Ubicación y Reseñas"></a></li>
+            <li><a href="https://wa.me/50688880002" target="_blank" rel="noopener" data-en="WhatsApp Us" data-es="Escríbenos por WhatsApp"></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom bar -->
+      <div class="footer-bottom">
+        <p class="footer-bilingual">English and Spanish spoken &nbsp;·&nbsp; Se habla español e inglés</p>
+        <p>© 2026 Restaurante Jaguar</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================
+       JAVASCRIPT
+  ======================== -->
+  <script>
+    'use strict';
+
+    /* -------- Language System -------- */
+    const LANG_KEY = 'jaguarLang';
+    let currentLang = localStorage.getItem(LANG_KEY) || 'en';
+
+    function applyLanguage(lang) {
+      currentLang = lang;
+      localStorage.setItem(LANG_KEY, lang);
+      document.documentElement.lang = lang;
+
+      // Update all translatable elements
+      const els = document.querySelectorAll('[data-en]');
+      els.forEach(el => {
+        const val = el.getAttribute('data-' + lang);
+        if (val !== null) {
+          el.innerHTML = val;
+        }
+      });
+
+      // Update toggle button labels
+      document.querySelectorAll('#lang-toggle, #lang-toggle-mobile').forEach(btn => {
+        btn.textContent = lang === 'en' ? 'ES' : 'EN';
+        btn.setAttribute('aria-label', lang === 'en' ? 'Cambiar a Español' : 'Switch to English');
+        btn.title = lang === 'en' ? 'Cambiar a Español' : 'Switch to English';
+      });
+    }
+
+    function toggleLanguage() {
+      applyLanguage(currentLang === 'en' ? 'es' : 'en');
+    }
+
+    // Bind toggle buttons
+    document.getElementById('lang-toggle').addEventListener('click', toggleLanguage);
+    document.getElementById('lang-toggle-mobile').addEventListener('click', toggleLanguage);
+
+    // Init
+    applyLanguage(currentLang);
+
+
+    /* -------- Sticky Nav Shadow -------- */
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 10);
+    }, { passive: true });
+
+
+    /* -------- Mobile Hamburger -------- */
+    const hamburgerBtn = document.getElementById('hamburger-btn');
+    const navDrawer = document.getElementById('nav-drawer');
+
+    hamburgerBtn.addEventListener('click', () => {
+      const isOpen = navDrawer.classList.toggle('open');
+      hamburgerBtn.classList.toggle('open', isOpen);
+      hamburgerBtn.setAttribute('aria-expanded', String(isOpen));
+      navDrawer.setAttribute('aria-hidden', String(!isOpen));
+    });
+
+    // Close drawer when a link is clicked
+    navDrawer.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navDrawer.classList.remove('open');
+        hamburgerBtn.classList.remove('open');
+        hamburgerBtn.setAttribute('aria-expanded', 'false');
+        navDrawer.setAttribute('aria-hidden', 'true');
+      });
+    });
+
+    // Close on outside click
+    document.addEventListener('click', (e) => {
+      if (!navbar.contains(e.target)) {
+        navDrawer.classList.remove('open');
+        hamburgerBtn.classList.remove('open');
+        hamburgerBtn.setAttribute('aria-expanded', 'false');
+        navDrawer.setAttribute('aria-hidden', 'true');
+      }
+    });
+  </script>
+</body>
+</html>
